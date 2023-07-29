@@ -1,7 +1,6 @@
 name: nop_db
 description: A new Flutter package project.
 version: 0.0.2
-homepage:
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
@@ -11,8 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   equatable: ">=2.0.2 <3.0.0"
-  nop: ">=0.0.3+1 <1.0.0"
-  nop_annotations: ">=0.2.0 <0.3.0"
+  nop: any
 dependency_overrides:
   nop:
     path: ../nop
